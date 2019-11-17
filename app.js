@@ -7,7 +7,7 @@ xhttp.onreadystatechange = function() {
         const data = response.data
         for(i=0; i<data.length; i++){
             if(rollNum === data[i].RollNumber){
-                console.log(data[i].Name);
+                alert(`your Name is ${data[i].Name} and Your Percentile is ${data[i].Percentile}%`);
                 break
             }
         }
