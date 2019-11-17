@@ -1,0 +1,26 @@
+body {
+    background-color: #a1dad4;
+}
+.head{
+    text-align: center;
+    font-family: 'Oswald', 'sans-serif';
+    color: #23343b;
+    padding-top: 20px;
+}
+.rollN{
+    text-align: center;
+    padding-top: 50px;
+}
+footer{
+    text-align: center;
+    padding-top: 200px;
+}
+#search{
+    position: absolute;
+    right: 20%;
+    left: 20%;
+}
+#btn{
+    position: absolute;
+    left: 82%;
+}
